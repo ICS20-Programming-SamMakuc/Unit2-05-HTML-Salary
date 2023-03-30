@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="What's your address? with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Sam Makuc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="192x192" href="./fav_index/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>User Input, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <center><h1>Salary Caluclator</h1></center>
+    <br></br>
+    <p>
+    <!-- Space to get user information -->
+      <h3>Please enter the following:</h3>
+    <form action="javascript:enterClicked()">
+        <label for="hours-worked">Number of Hours Worked:</label>
+        <input type="number" id="hours-worked" placeholder="Hours Worked"><br><br>
+        <label for="hourly-rate">Hourly Rate: $</label>
+        <input type="number" id="hourly-rate" placeholder="Hourly Rate"><br><br>
+        <input type="submit" value="Pay">
+      </form>
+  </p>
+    <!-- Create a space where the user information will be displayed -->
+    <div id="salary-info">  
+      <p></p>
+    </div>
+  </body>
+</html>
