@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(124, 6, 198);
+  background-color: rgb(124 6 198);
   font-size: 10pt;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   color: rgb(66 158 255);
@@ -13,7 +13,7 @@ h1 {
   font: 25pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 80pt;
-  color:  rgb(66 158 255);
+  color: rgb(66 158 255);
   background-color: #030544;
 }
 
